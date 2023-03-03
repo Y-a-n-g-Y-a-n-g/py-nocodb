@@ -9,3 +9,5 @@ nocodb WebSite https://github.com/nocodb/nocodb
 restapi support situation:https://github.com/Yang-GG/py-nocodb/blob/main/restapi-supports.md
 
 # Quick Start
+
+pip install py-nocodb
