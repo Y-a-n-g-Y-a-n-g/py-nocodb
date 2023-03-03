@@ -129,8 +129,8 @@
 | Meta | Get | project | metaGet | /api/v1/db/meta/projects/{projectId}/info |
 | Meta | Get | project | modelVisibilityList | /api/v1/db/meta/projects/{projectId}/visibility-rules |
 | Meta | Post | project | modelVisibilitySet | /api/v1/db/meta/projects/{projectId}/visibility-rules |
-| Meta | Get | project | list | /api/v1/db/meta/projects |
-| Meta | Post | project | create | /api/v1/db/meta/projects |
+|✅| Meta | Get | project | list | /api/v1/db/meta/projects |
+|✅| Meta | Post | project | create | /api/v1/db/meta/projects |
 | Meta | Get | project | read | /api/v1/db/meta/projects/{projectId} |
 | Meta | Delete| project | delete | /api/v1/db/meta/projects/{projectId} |
 | Meta | Get | project | auditList | /api/v1/db/meta/projects/{projectId}/audits |
