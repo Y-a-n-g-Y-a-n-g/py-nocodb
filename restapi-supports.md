@@ -14,16 +14,16 @@
 
 ### Public APIs
 
-| Category | Method | Tag | Function Name | Path |
-|---|---|---|---|---|
-| Public | Get | public | sharedBaseGet | /api/v1/db/public/shared-base/{sharedBaseUuid}/meta |
-| Public | Post | public | dataList | /api/v1/db/public/shared-view/{sharedViewUuid}/rows |
-| Public | Get | public | dataNestedList | /api/v1/db/public/shared-view/{sharedViewUuid}/rows/{rowId}/{relationType}/{columnName} |
-| Public | Post | public | dataCreate | /api/v1/db/public/shared-view/{sharedViewUuid}/rows |
-| Public | Get | public | csvExport | /api/v1/db/public/shared-view/{sharedViewUuid}/rows/export/{type} |
-| Public | Get | public | dataRelationList | /api/v1/db/public/shared-view/{sharedViewUuid}/nested/{columnName} |
-| Public | Get | public | sharedViewMetaGet | /api/v1/db/public/shared-view/{sharedViewUuid}/meta |
-| Public | Get | public | groupedDataList | /api/v1/db/public/shared-view/{sharedViewUuid}/group/{columnId} |
+| Support| Category | Method | Tag | Function Name | Path |
+|---|---|---|---|---|---|
+|| Public | Get | public | sharedBaseGet | /api/v1/db/public/shared-base/{sharedBaseUuid}/meta |
+|| Public | Post | public | dataList | /api/v1/db/public/shared-view/{sharedViewUuid}/rows |
+|| Public | Get | public | dataNestedList | /api/v1/db/public/shared-view/{sharedViewUuid}/rows/{rowId}/{relationType}/{columnName} |
+|| Public | Post | public | dataCreate | /api/v1/db/public/shared-view/{sharedViewUuid}/rows |
+|| Public | Get | public | csvExport | /api/v1/db/public/shared-view/{sharedViewUuid}/rows/export/{type} |
+|| Public | Get | public | dataRelationList | /api/v1/db/public/shared-view/{sharedViewUuid}/nested/{columnName} |
+|| Public | Get | public | sharedViewMetaGet | /api/v1/db/public/shared-view/{sharedViewUuid}/meta |
+|| Public | Get | public | groupedDataList | /api/v1/db/public/shared-view/{sharedViewUuid}/group/{columnId} |
 
 ### Data APIs
 
