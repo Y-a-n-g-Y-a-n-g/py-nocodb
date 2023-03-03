@@ -12,3 +12,4 @@ restapi support situation:https://github.com/Yang-GG/py-nocodb/blob/main/restapi
 ```
 pip install py-nocodb
 ```
+##Authorization
