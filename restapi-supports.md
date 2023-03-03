@@ -2,9 +2,9 @@
 
 | Support | Category | Method | Tag | Function Name | Path |
 |---|---|---|---|---|---|
-|✅| Auth | Post | auth | signup | /api/v1/auth/user/signup |
-|| Auth | Post | auth | signin | /api/v1/auth/user/signin |
-|| Auth | Get | auth | me | /api/v1/auth/user/me |
+|| Auth | Post | auth | signup | /api/v1/auth/user/signup |
+|✅| Auth | Post | auth | signin | /api/v1/auth/user/signin |
+|✅| Auth | Get | auth | me | /api/v1/auth/user/me |
 || Auth | Post | auth | passwordForgot | /api/v1/auth/password/forgot |
 || Auth | Post | auth | passwordChange | /api/v1/auth/password/change |
 || Auth | Post | auth | passwordReset | /api/v1/auth/password/reset/{token} |
