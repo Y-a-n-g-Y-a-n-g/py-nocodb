@@ -4,3 +4,5 @@ The Python client for NOCODB fully(doing) supports all features of the official 
 Currently under development, please do not use it now.
 # resource
 nocodb WebSite https://github.com/nocodb/nocodb
+
+restapi support situation:https://github.com/Yang-GG/py-nocodb/blob/main/restapi-supports.md
