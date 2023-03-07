@@ -27,33 +27,33 @@
 
 ### Data APIs
 
-| Category | Method | Tag | Function Name | Path |
-|---|---|---|---|---|
-| Data | Delete| dbTableRow | bulkDelete | /api/v1/db/data/bulk/{orgs}/{projectName}/{tableName}/ |
-| Data | Post | dbTableRow | bulkCreate | /api/v1/db/data/bulk/{orgs}/{projectName}/{tableName}/ |
-| Data | Patch | dbTableRow | bulkUpdate | /api/v1/db/data/bulk/{orgs}/{projectName}/{tableName}/ |
-| Data | Patch | dbTableRow | bulkUpdateAll | /api/v1/db/data/bulk/{orgs}/{projectName}/{tableName}/all |
-| Data | Delete| dbTableRow | bulkDeleteAll | /api/v1/db/data/bulk/{orgs}/{projectName}/{tableName}/all |
-| Data | Get | dbTableRow | list | /api/v1/db/data/{orgs}/{projectName}/{tableName} |
-| Data | Get | dbTableRow | findOne | /api/v1/db/data/{orgs}/{projectName}/{tableName}/find-one |
-| Data | Get | dbTableRow | groupBy | /api/v1/db/data/{orgs}/{projectName}/{tableName}/groupby |
-| Data | Get | dbTableRow | exist | /api/v1/db/data/{orgs}/{projectName}/{tableName}/{rowId}/exist |
-| Data | Post | dbTableRow | create | /api/v1/db/data/{orgs}/{projectName}/{tableName} |
-| Data | Get | dbTableRow | read | /api/v1/db/data/{orgs}/{projectName}/{tableName}/{rowId} |
-| Data | Patch | dbTableRow | update | /api/v1/db/data/{orgs}/{projectName}/{tableName}/{rowId} |
-| Data | Delete| dbTableRow | delete | /api/v1/db/data/{orgs}/{projectName}/{tableName}/{rowId} |
-| Data | Get | dbTableRow | count | /api/v1/db/data/{orgs}/{projectName}/{tableName}/count |
-| Data | Get | dbTableRow | groupedDataList | /api/v1/db/data/{orgs}/{projectName}/{tableName}/group/{columnId} |
-| Data | Get | dbViewRow | list | /api/v1/db/data/{orgs}/{projectName}/{tableName}/views/{viewName} |
-| Data | Get | dbViewRow | findOne | /api/v1/db/data/{orgs}/{projectName}/{tableName}/views/{viewName}/find-one |
-| Data | Get | dbViewRow | groupBy | /api/v1/db/data/{orgs}/{projectName}/{tableName}/views/{viewName}/groupby |
-| Data | Get | dbViewRow | exist | /api/v1/db/data/{orgs}/{projectName}/{tableName}/views/{viewName}/{rowId}/exist |
-| Data | Post | dbViewRow | create | /api/v1/db/data/{orgs}/{projectName}/{tableName}/views/{viewName} |
-| Data | Get | dbViewRow | read | /api/v1/db/data/{orgs}/{projectName}/{tableName}/views/{viewName}/{rowId} |
-| Data | Patch | dbViewRow | update | /api/v1/db/data/{orgs}/{projectName}/{tableName}/views/{viewName}/{rowId} |
-| Data | Delete| dbViewRow | delete | /api/v1/db/data/{orgs}/{projectName}/{tableName}/views/{viewName}/{rowId} |
-| Data | Get | dbViewRow | count | /api/v1/db/data/{orgs}/{projectName}/{tableName}/views/{viewName}/count |
-| Data | Get | dbViewRow | groupedDataList | /api/v1/db/data/{orgs}/{projectName}/{tableName}/views/{viewName}/group/{columnId} |
+| Support| Category | Method | Tag | Function Name | Path |
+|---|---|---|---|---|---|
+|| Data | Delete| dbTableRow | bulkDelete | /api/v1/db/data/bulk/{orgs}/{projectName}/{tableName}/ |
+|| Data | Post | dbTableRow | bulkCreate | /api/v1/db/data/bulk/{orgs}/{projectName}/{tableName}/ |
+|| Data | Patch | dbTableRow | bulkUpdate | /api/v1/db/data/bulk/{orgs}/{projectName}/{tableName}/ |
+|| Data | Patch | dbTableRow | bulkUpdateAll | /api/v1/db/data/bulk/{orgs}/{projectName}/{tableName}/all |
+|| Data | Delete| dbTableRow | bulkDeleteAll | /api/v1/db/data/bulk/{orgs}/{projectName}/{tableName}/all |
+|| Data | Get | dbTableRow | list | /api/v1/db/data/{orgs}/{projectName}/{tableName} |
+|| Data | Get | dbTableRow | findOne | /api/v1/db/data/{orgs}/{projectName}/{tableName}/find-one |
+|| Data | Get | dbTableRow | groupBy | /api/v1/db/data/{orgs}/{projectName}/{tableName}/groupby |
+|| Data | Get | dbTableRow | exist | /api/v1/db/data/{orgs}/{projectName}/{tableName}/{rowId}/exist |
+|| Data | Post | dbTableRow | create | /api/v1/db/data/{orgs}/{projectName}/{tableName} |
+|| Data | Get | dbTableRow | read | /api/v1/db/data/{orgs}/{projectName}/{tableName}/{rowId} |
+|| Data | Patch | dbTableRow | update | /api/v1/db/data/{orgs}/{projectName}/{tableName}/{rowId} |
+|| Data | Delete| dbTableRow | delete | /api/v1/db/data/{orgs}/{projectName}/{tableName}/{rowId} |
+|| Data | Get | dbTableRow | count | /api/v1/db/data/{orgs}/{projectName}/{tableName}/count |
+|| Data | Get | dbTableRow | groupedDataList | /api/v1/db/data/{orgs}/{projectName}/{tableName}/group/{columnId} |
+|| Data | Get | dbViewRow | list | /api/v1/db/data/{orgs}/{projectName}/{tableName}/views/{viewName} |
+|| Data | Get | dbViewRow | findOne | /api/v1/db/data/{orgs}/{projectName}/{tableName}/views/{viewName}/find-one |
+|| Data | Get | dbViewRow | groupBy | /api/v1/db/data/{orgs}/{projectName}/{tableName}/views/{viewName}/groupby |
+|| Data | Get | dbViewRow | exist | /api/v1/db/data/{orgs}/{projectName}/{tableName}/views/{viewName}/{rowId}/exist |
+|| Data | Post | dbViewRow | create | /api/v1/db/data/{orgs}/{projectName}/{tableName}/views/{viewName} |
+|| Data | Get | dbViewRow | read | /api/v1/db/data/{orgs}/{projectName}/{tableName}/views/{viewName}/{rowId} |
+|| Data | Patch | dbViewRow | update | /api/v1/db/data/{orgs}/{projectName}/{tableName}/views/{viewName}/{rowId} |
+|| Data | Delete| dbViewRow | delete | /api/v1/db/data/{orgs}/{projectName}/{tableName}/views/{viewName}/{rowId} |
+|| Data | Get | dbViewRow | count | /api/v1/db/data/{orgs}/{projectName}/{tableName}/views/{viewName}/count |
+|| Data | Get | dbViewRow | groupedDataList | /api/v1/db/data/{orgs}/{projectName}/{tableName}/views/{viewName}/group/{columnId} |
 
 ### Meta APIs
 
@@ -186,26 +186,26 @@
 
 ## Comparison Operators
 
-| Operation | Meaning | Example |
-|---|---|---|
-| eq | equal | (colName,eq,colValue) |
-| neq | not equal | (colName,neq,colValue) |
-| not | not equal (alias of neq) | (colName,not,colValue) |
-| gt | greater than | (colName,gt,colValue) |
-| ge | greater or equal | (colName,ge,colValue) |
-| lt | less than | (colName,lt,colValue) |
-| le | less or equal | (colName,le,colValue) |
-| is | is | (colName,is,true/false/null) |
-| isnot | is not | (colName,isnot,true/false/null) |
-| in | in | (colName,in,val1,val2,val3,val4) |
-| btw | between | (colName,btw,val1,val2) |
-| nbtw | not between | (colName,nbtw,val1,val2) |
-| like | like | (colName,like,%name) |
-| isWithin | is Within (Available in `Date` and `DateTime` only) | (colName,isWithin,sub_op) |
-| allof | includes all of | (colName,allof,val1,val2,...) |
-| anyof | includes any of | (colName,anyof,val1,val2,...) |
-| nallof | does not include all of (includes none or some, but not all of) | (colName,nallof,val1,val2,...) |
-| nanyof | does not include any of (includes none of) | (colName,nanyof,val1,val2,...) |
+| Support| Operation | Meaning | Example |
+|---|---|---|---|
+|| eq | equal | (colName,eq,colValue) |
+|| neq | not equal | (colName,neq,colValue) |
+|| not | not equal (alias of neq) | (colName,not,colValue) |
+|| gt | greater than | (colName,gt,colValue) |
+|| ge | greater or equal | (colName,ge,colValue) |
+|| lt | less than | (colName,lt,colValue) |
+|| le | less or equal | (colName,le,colValue) |
+|| is | is | (colName,is,true/false/null) |
+|| isnot | is not | (colName,isnot,true/false/null) |
+|| in | in | (colName,in,val1,val2,val3,val4) |
+|| btw | between | (colName,btw,val1,val2) |
+|| nbtw | not between | (colName,nbtw,val1,val2) |
+|| like | like | (colName,like,%name) |
+|| isWithin | is Within (Available in `Date` and `DateTime` only) | (colName,isWithin,sub_op) |
+|| allof | includes all of | (colName,allof,val1,val2,...) |
+|| anyof | includes any of | (colName,anyof,val1,val2,...) |
+|| nallof | does not include all of (includes none or some, but not all of) | (colName,nallof,val1,val2,...) |
+|| nanyof | does not include any of (includes none of) | (colName,nanyof,val1,val2,...) |
 
 ## Comparison Sub-Operators
 
