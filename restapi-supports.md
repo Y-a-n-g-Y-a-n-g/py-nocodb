@@ -107,7 +107,7 @@
 || Meta | Post | dbView | galleryCreate | /api/v1/db/meta/galleries |
 || Meta | Patch | dbView | galleryUpdate | /api/v1/db/meta/galleries/{galleriesId} |
 || Meta | Get | dbView | galleryRead | /api/v1/db/meta/galleries/{galleriesId} |
-|| Meta | Post | dbView | gridCreate | /api/v1/db/meta/tables/${tableId}/grids |
+|✅| Meta | Post | dbView | gridCreate | /api/v1/db/meta/tables/${tableId}/grids |
 || Meta | Get | dbView | gridColumnsList | /api/v1/db/meta/grids/{gridId}/grid-columns |
 || Meta | Patch | dbView | gridColumnUpdate | /api/v1/db/meta/grid-columns/{columnId} |
 || Meta | Patch | dbView | update | /api/v1/db/meta/views/{viewId} |
