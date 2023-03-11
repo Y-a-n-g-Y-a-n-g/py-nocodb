@@ -38,7 +38,7 @@
 || Data | Get | dbTableRow | findOne | /api/v1/db/data/{orgs}/{projectName}/{tableName}/find-one |
 || Data | Get | dbTableRow | groupBy | /api/v1/db/data/{orgs}/{projectName}/{tableName}/groupby |
 || Data | Get | dbTableRow | exist | /api/v1/db/data/{orgs}/{projectName}/{tableName}/{rowId}/exist |
-|| Data | Post | dbTableRow | create | /api/v1/db/data/{orgs}/{projectName}/{tableName} |
+|✅| Data | Post | dbTableRow | create | /api/v1/db/data/{orgs}/{projectName}/{tableName} |
 || Data | Get | dbTableRow | read | /api/v1/db/data/{orgs}/{projectName}/{tableName}/{rowId} |
 || Data | Patch | dbTableRow | update | /api/v1/db/data/{orgs}/{projectName}/{tableName}/{rowId} |
 || Data | Delete| dbTableRow | delete | /api/v1/db/data/{orgs}/{projectName}/{tableName}/{rowId} |
