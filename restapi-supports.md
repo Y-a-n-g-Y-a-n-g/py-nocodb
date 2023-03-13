@@ -95,7 +95,7 @@
 || Meta | Get | dbTableWebhook | samplePayloadGet | /api/v1/db/meta/tables/{tableId}/hooks/samplePayload/{operation} |
 || Meta | Get | dbTableWebhookFilter | read | /api/v1/db/meta/hooks/{hookId}/filters |
 || Meta | Post | dbTableWebhookFilter | create | /api/v1/db/meta/hooks/{hookId}/filters |
-|| Meta | Get | dbView | list | /api/v1/db/meta/tables/{tableId}/views |
+|✅| Meta | Get | dbView | list | /api/v1/db/meta/tables/{tableId}/views |
 || Meta | Get | dbView | read | /api/v1/db/meta/tables/{tableId} |
 || Meta | Patch | dbView | update | /api/v1/db/meta/tables/{tableId} |
 || Meta | Delete| dbView | delete | /api/v1/db/meta/tables/{tableId} |
